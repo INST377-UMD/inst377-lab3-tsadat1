@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock Paper Scissors Game</title>
+    <link rel="stylesheet" href="style.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="header-footer">
+        <h1>Rock Paper Scissors Game</h1>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="https://finance.yahoo.com/" target="_blank">Yahoo Finance</a></li>
+            <li><a href="https://gemini.google.com/" target="_blank">Gemini</a></li>
+            <li><a href="https://www.testudo.umd.edu/" target="_blank">Testudo</a></li>
+        </ul>
+    </nav>
+
+    <div class="container">
+        <main class="main-content">
+            <h2>Play the Game</h2>
+            <form>
+                <div class="form-group">
+                    <label for="playerName">Name:</label>
+                    <input type="text" id="playerName" name="playerName" required>
+                </div>
+                <div class="form-group">
+                    <label for="choice">Your Choice:</label>
+                    <select id="choice" name="choice">
+                        <option value="rock">Rock</option>
+                        <option value="paper">Paper</option>
+                        <option value="scissors">Scissors</option>
+                    </select>
+                </div>
+                <button type="submit">Play</button>
+            </form>
+        </main>
+
+        <aside class="sidebar">
+            <h2>Game Rules</h2>
+            <ul>
+                <li>Rock crushes Scissors</li>
+                <li>Scissors cuts Paper</li>
+                <li>Paper covers Rock</li>
+                <li>Best of three wins!</li>
+            </ul>
+        </aside>
+    </div>
+
+    <footer class="header-footer">
+        <p>&copy; 2025 Rock Paper Scissors Game</p>
+    </footer>
+</body>
+</html>
